@@ -1,17 +1,17 @@
-2025-09-16 15:59:57,160 [INFO] --- Tokenizing Sample Sentences ---
-2025-09-16 15:59:57,160 [INFO] Original: Hello, world! This is a test.
-2025-09-16 15:59:57,161 [INFO] SimpleTokenizer: ['hello', ',', 'world', '!', 'this', 'is', 'a', 'test', '.']
-2025-09-16 15:59:57,161 [INFO] RegexTokenizer:   ['hello', ',', 'world', '!', 'this', 'is', 'a', 'test', '.']
-2025-09-16 15:59:57,161 [INFO] Original: NLP is fascinating... isn't it?
-2025-09-16 15:59:57,161 [INFO] SimpleTokenizer: ['nlp', 'is', 'fascinating', '.', '.', '.', "isn't", 'it', '?']
-2025-09-16 15:59:57,161 [INFO] RegexTokenizer:   ['nlp', 'is', 'fascinating', '.', '.', '.', 'isn', "'", 't', 'it', '?']
-2025-09-16 15:59:57,161 [INFO] Original: Let's see how it handles 123 numbers and punctuation!
-2025-09-16 15:59:57,161 [INFO] SimpleTokenizer: ["let's", 'see', 'how', 'it', 'handles', '123', 'numbers', 'and', 'punctuation', '!']
-2025-09-16 15:59:57,161 [INFO] RegexTokenizer:   ['let', "'", 's', 'see', 'how', 'it', 'handles', '123', 'numbers', 'and', 'punctuation', '!']
-2025-09-16 15:59:57,162 [INFO] --- Loading and Tokenizing from UD_English-EWT Dataset ---
-2025-09-16 15:59:57,166 [INFO] Đang load dataset từ D:\10. ky1nam4\NLP\data\UD_English-EWT\en_ewt-ud-train.txt...
-2025-09-16 15:59:57,166 [INFO] Tokenizing sample text từ UD_English-EWT...
-2025-09-16 15:59:57,166 [INFO] Original Sample (100 chars): Al-Zaman : American forces killed Shaikh Abdullah al-Ani, the preacher at the
+2025-09-16 21:20:53,282 [INFO] --- Tokenizing Sample Sentences ---
+2025-09-16 21:20:53,282 [INFO] Original: Hello, world! This is a test.
+2025-09-16 21:20:53,282 [INFO] SimpleTokenizer: ['hello', ',', 'world', '!', 'this', 'is', 'a', 'test', '.']
+2025-09-16 21:20:53,283 [INFO] RegexTokenizer:   ['hello', ',', 'world', '!', 'this', 'is', 'a', 'test', '.']
+2025-09-16 21:20:53,283 [INFO] Original: NLP is fascinating... isn't it?
+2025-09-16 21:20:53,283 [INFO] SimpleTokenizer: ['nlp', 'is', 'fascinating', '.', '.', '.', "isn't", 'it', '?']
+2025-09-16 21:20:53,283 [INFO] RegexTokenizer:   ['nlp', 'is', 'fascinating', '.', '.', '.', 'isn', "'", 't', 'it', '?']
+2025-09-16 21:20:53,283 [INFO] Original: Let's see how it handles 123 numbers and punctuation!
+2025-09-16 21:20:53,283 [INFO] SimpleTokenizer: ["let's", 'see', 'how', 'it', 'handles', '123', 'numbers', 'and', 'punctuation', '!']
+2025-09-16 21:20:53,283 [INFO] RegexTokenizer:   ['let', "'", 's', 'see', 'how', 'it', 'handles', '123', 'numbers', 'and', 'punctuation', '!']
+2025-09-16 21:20:53,283 [INFO] --- Loading and Tokenizing from UD_English-EWT Dataset ---
+2025-09-16 21:20:53,289 [INFO] Đang load dataset từ D:\10. ky1nam4\NLP\data\UD_English-EWT\en_ewt-ud-train.txt...
+2025-09-16 21:20:53,289 [INFO] Tokenizing sample text từ UD_English-EWT...
+2025-09-16 21:20:53,289 [INFO] Original Sample (100 chars): Al-Zaman : American forces killed Shaikh Abdullah al-Ani, the preacher at the
 mosque in the town of ...
-2025-09-16 15:59:57,166 [INFO] SimpleTokenizer Output (first 20 tokens): ['al-zaman', ':', 'american', 'forces', 'killed', 'shaikh', 'abdullah', 'al-ani', ',', 'the', 'preacher', 'at', 'the', 'mosque', 'in', 'the', 'town', 'of', 'qaim', ',']
-2025-09-16 15:59:57,167 [INFO] RegexTokenizer Output (first 20 tokens): ['al', '-', 'zaman', ':', 'american', 'forces', 'killed', 'shaikh', 'abdullah', 'al', '-', 'ani', ',', 'the', 'preacher', 'at', 'the', 'mosque', 'in', 'the']
+2025-09-16 21:20:53,289 [INFO] SimpleTokenizer Output (first 20 tokens): ['al-zaman', ':', 'american', 'forces', 'killed', 'shaikh', 'abdullah', 'al-ani', ',', 'the', 'preacher', 'at', 'the', 'mosque', 'in', 'the', 'town', 'of', 'qaim', ',']
+2025-09-16 21:20:53,289 [INFO] RegexTokenizer Output (first 20 tokens): ['al', '-', 'zaman', ':', 'american', 'forces', 'killed', 'shaikh', 'abdullah', 'al', '-', 'ani', ',', 'the', 'preacher', 'at', 'the', 'mosque', 'in', 'the']

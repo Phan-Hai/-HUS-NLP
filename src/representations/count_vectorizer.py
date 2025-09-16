@@ -25,3 +25,7 @@ class CountVectorizer(Vectorizer):
                     vector[idx] += 1
             vectors.append(vector)
         return vectors
+    
+    def fit_transform(self, corpus: list[str]) -> list[list[int]]:
+        self.fit(corpus)
+        return self.transform(corpus)

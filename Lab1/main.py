@@ -7,7 +7,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     encoding="utf-8",
-    filename=r"D:\10. ky1nam4\NLP\Lab1\run.log",
+    filename=r"lab1/run.log",
     filemode="w"
 )
 
