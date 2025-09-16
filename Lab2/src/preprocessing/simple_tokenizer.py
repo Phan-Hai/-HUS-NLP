@@ -1,4 +1,3 @@
-# src/preprocessing/simple_tokenizer.py
 import re
 from src.core.interfaces import Tokenizer
 

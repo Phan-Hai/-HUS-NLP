@@ -9,5 +9,5 @@ __pycache__/
 # Bỏ notebook checkpoint
 .ipynb_checkpoints/
 
-
+# Bỏ data
 data/
